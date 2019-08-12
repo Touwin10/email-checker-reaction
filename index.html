@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Email Checker Reaction</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="form">
+            <div class="face-wrapper">
+                <div class="reator">
+                    <img id="reactor" class="reactor" src="" alt="reactor">
+                </div>
+                <div id="checker" class="face">
+                    <img class="checker" src="./img/face-watch.png" alt="checker">
+                    <span id="left-eye" class="left-eye"></span>
+                    <span id="right-eye" class="right-eye"></span>
+                </div>
+            </div>
+
+            <div class="input-field">
+                <input type="text" placeholder="Type an email" oninput="onTypingEmail(this)">
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="js/bad-words.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
